@@ -3,11 +3,22 @@
 <meta name="google-signin-client_id" content="your google sign in client ID">
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/static/script.js"></script>
+<style>
+.data{
+display:none;
+}
+</style>
 </head>
 <body>
 Login to google :- 
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
-click on the google login button for oauth login --- 
+<div class="data">
+<p>Profile Details</p>
+<img id="pic" class="img-circle" width="100" height="100"/>
+<p>Email Address</p>
+<p id="email" class="alert alert-danger"></p>
+<button onclick="signOut()" class="btn btn-danger">signOut</button> 
 Auth : Tushar (thetushartripathi1998@gmail.com)
 Github : github.com/tushartripathi1998
 </body>
