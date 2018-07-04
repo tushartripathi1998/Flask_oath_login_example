@@ -1,7 +1,7 @@
 # Flask_oath_login_example
 
-Create a basic google login : oauth using flask.
-Don't forget to mention your client id in /template/index.html.
+Create a basic google login : oauth2 using flask.
+Sign in into your google account and when a user signs in, user's name, profile picture and email ID gets displayed.
 
 Help :
 https://developers.google.com/identity/sign-in/web/sign-in#before_you_begin
